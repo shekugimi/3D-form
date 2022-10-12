@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/bg.png") ;
+    background-size:initial;
+    background-repeat: no-repeat;
+
+}
+.main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+
+}
+
+.signup-cont{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(40, 114, 108, 0.925);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    transform: rotateY(90deg);
+    margin-right: -167px;
+
+}
+.signin-cont{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(40, 114, 108, 0.925);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    transform: rotateY(5deg);
+
+}
+
+.top-btn-up{
+    width: 110px;
+    margin-top: 25px;
+    margin-right: -180px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    color: rgba(118, 136, 134, 0.925);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.top-btn-in{
+    width: 110px;
+    margin-top: 25px;
+    margin-left: -250px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    color: rgba(40, 114, 108, 0.925);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.main-head2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.signup-cont input, .signin-cont input{
+    width: 275px;
+    padding: 10px;
+    margin: 10px;
+    border: 1.5px solid aliceblue;
+    border-radius: 3px;
+    background-color: rgba(40, 114, 108, 0.925);
+    color: aliceblue;
+
+
+}
+.sub-btn{
+    width: 110px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(40, 114, 108, 0.925);
+
+}
